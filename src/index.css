@@ -8,6 +8,11 @@
     @apply border border-black rounded-xl px-5 py-1
   }
 }
+
+* {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: NotoColorEmojiLimited;
   unicode-range: U+1F1E6-1F1FF;
