@@ -8,7 +8,7 @@ const Footer = () => {
  <p>🏠 <b>Adress:</b> Kunsgatan 102, 903 32 Umeå</p>
  <p>📱<b>Telefonnummer:</b> 090-121100 / 090-121434</p>
  <br></br>
- <p><b>Made with 💛 by Link Häggman</b></p>
+ <p><b>Made with 🍕 by Link Häggman</b></p>
           </div>
         </div>
       </div>
