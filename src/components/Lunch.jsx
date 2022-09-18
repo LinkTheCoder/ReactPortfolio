@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HeadlineCards = () => {
+const Lunch = () => {
   return (
     <div>
     <h1 id="Lunch" className=' mt-6 mb-2 text-yellow-500 font-bold text-4xl text-center'>
@@ -59,4 +59,4 @@ const HeadlineCards = () => {
   );
 };
 
-export default HeadlineCards;
+export default Lunch;

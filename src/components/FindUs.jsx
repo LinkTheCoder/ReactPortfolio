@@ -1,7 +1,7 @@
 import React from 'react';
 import { categories } from '../data/data.js';
 
-const Category = () => {
+const FindUs = () => {
   console.log(categories);
   return (
     <div className='max-w-[1640px] m-auto px-4 py-12'>
@@ -15,4 +15,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default FindUs;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { data } from '../data/data.js';
 
-const Food = () => {
+const Dinner = () => {
   //   console.log(data);
   const [foods, setFoods] = useState(data);
 
@@ -165,4 +165,4 @@ const Food = () => {
   );
 };
 
-export default Food;
+export default Dinner;

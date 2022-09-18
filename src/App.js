@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import HeadlineCards from './components/HeadlineCards'
-import Food from './components/Food'
-import Category from './components/Category'
+import Lunch from './components/Lunch'
+import Dinner from './components/Dinner'
+import FindUs from './components/FindUs'
 import Footer from './components/Footer'
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
     <div>
         <Navbar />
         <Hero />
-        <HeadlineCards />
-        <Food />
-        <Category />
+        <Lunch />
+        <Dinner />
+        <FindUs />
         <Footer />
     </div>
   );
