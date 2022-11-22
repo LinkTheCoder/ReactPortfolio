@@ -2,25 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@layer base {
-  button {
-    @apply border border-black rounded-xl px-5 py-1
-  }
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 * {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: NotoColorEmojiLimited;
-  unicode-range: U+1F1E6-1F1FF;
-  src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+body {
+  background-color: black;
 }
 
-div {
-  font-family: 'NotoColorEmojiLimited', -apple-system, BlinkMacSystemFont, 
-  'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 
-  'Segoe UI Emoji', 'Segoe UI Symbol';
+#outline {
+  -webkit-text-stroke: 2px black;
+}
+
+:root {
+  --primary-dark: #5651e5;
+  --primary-light: #709dff;
+}
+
+@layer base {
+  body {
+    @apply font-[Poppins]
+  }
+
+  li {
+    @apply p-4
+  }
+
+  h1 {
+    @apply text-3xl md:text-4xl font-bold
+  }
+
+  h2 {
+    @apply text-3xl font-bold
+  }
+
+  h3 {
+    @apply text-xl font-bold
+  }
+  .icon {
+    @apply text-2xl cursor-pointer
+  }
 }

@@ -1,19 +1,20 @@
 import React from 'react'
+import Wallpaper from '../assets/Wallpaper.jpg';
+import Nav from '../components/Nav'
 
 const Hero = () => {
-  return ( 
-    <div className='max-w-[1640px] mx-auto p-4'>
-        <div className='max-h-[500px] relative'>
-            {/* Overlay */}
-            <div className='rounded-xl absolute w-full h-full text-gray-200 max-h-[500px] bg-black/40 flex flex-col justify-center'>
-                <h1 className='px-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold'><span className='text-yellow-500'>Pizzeria</span></h1>
-                <h1 className='px-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold'> & <span>Restaurang</span> 
-                <h1 className='whitespace-pre-line text-yellow-500'>Öst på Stan</h1></h1>
-            </div>
-            <img className='rounded-xl w-full max-h-[500px] object-cover' src='/images/HeroImage.jpg' alt="/" />
-        </div>
-    </div>
-  )
-}
+  return (
+    <div className='w-full h-screen relative'>
+      <img
+        className='w-full h-screen object-cover'
+        src={Wallpaper}
+      />
+      <div className='absolute w-full h-full top-0 left-0 bg-black/10'></div>
+      <div className='absolute w-screen bottom-0 align-bottom justify-center text-center'>
+        <Nav />
+  </div>
+  </div>
+  );
+};
 
-export default Hero
+export default Hero;
