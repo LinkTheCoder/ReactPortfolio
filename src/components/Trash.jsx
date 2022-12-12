@@ -1,5 +1,8 @@
 import React from "react";
 import Trash from '../assets/Trash.png';
+import Box from '../assets/Box.jpg';
+import VsCodeIcon from '../assets/VsCodeIcon.png';
+import JSXIcon from '../assets/JSXIcon.png';
 
 export default function TrashModal() {
     const [showModal, setShowModal] = React.useState(false);
@@ -37,20 +40,39 @@ export default function TrashModal() {
                     </button>
                   </div>
                   {/*body*/}
-                  <div className="bg-slate-800 relative p-6 flex flex-row">
-                  <img class="object-cover w-16 h-16 mr-2 rounded-full" src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Profile image"/>
-                  <p className=" text-center my-2 text-slate-400 text-md leading-relaxed">Resume</p>
+                  <div class="bg-slate-800 p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
 
+    <div class="rounded overflow-hidden">
+    <img class="inline object w-20 h-20 rounded-sm" src={Box} alt="Profile image"/>
+      <div class="px-6 py-2">
+        <p class="text-slate-400 text-base">
+        ???
+        </p>
+      </div>
+    </div>
+ 
+    <div class="rounded overflow-hidden">
+    <img class="inline object w-15 h-20 rounded-sm" src={VsCodeIcon} alt="Profile image"/>
+      <div class="px-6 py-2">
+        <p class="text-slate-400 text-base">
+        NotFinal
+        </p>
+      </div>
+    </div>
 
-                    <img class="object-cover w-16 h-16 mr-2 rounded-full" src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Profile image"/>
-        
-                    <p className=" text-center my-2 text-slate-400 text-md leading-relaxed">Resume</p>
+    <div class="rounded overflow-hidden">
+    <img class="inline object w-20 h-20 rounded-sm" src={JSXIcon} alt="Profile image"/>
+      <div class="px-6 py-2">
+        <p class="text-slate-400 text-base">
+        NoFunction
+        </p>
+      </div>
+    </div>
 
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
+  </div>
+  </div>
+  </div>
+  </div>  
             <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
           </>
         ) : null}
