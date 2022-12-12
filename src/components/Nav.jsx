@@ -74,13 +74,6 @@ export default function Navbar({ fixed }) {
               </li>
 
               <li className="nav-item">
-              <a href="https://app.thestorygraph.com/profile/linkthereader"><button class="bg-slate-800 hover:bg-slate-700 text-white font-bold py-2 px-2 rounded">
-            <img class="max-w-full h-auto" src={StoryGraph} alt="image description">
-            </img>
-          </button></a>
-              </li>
-
-              <li className="nav-item">
              <button onClick={FullscreenFunction} class="bg-slate-800 hover:bg-slate-700 text-white font-bold py-2 px-2 rounded">
             <img class="max-w-full h-auto" src={Fullscreen} alt="image description">
             </img>

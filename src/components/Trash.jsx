@@ -37,19 +37,17 @@ export default function TrashModal() {
                     </button>
                   </div>
                   {/*body*/}
-                  <div className="bg-slate-800 relative p-6 flex-auto">
-                  <img class="inline object-cover w-20 h-20 mr-2 rounded-full" src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Profile image"/>
-                    <p className="text-left my-4 text-slate-400 text-lg leading-relaxed">
-      
-              <ul>
-                  <li>🏫 My name is <span className=" font-medium">NAME</span>! A (Front-End) Web Developer. I'm currently studying Webmaster Programme at Högskola Väst,
-                   If you want to contact me use this <a className='text-underline' href='mailto:linkhaggman@gmail.com'><u>EMAIL</u></a></li>
-                  <li>🧑‍💻 I like to code and design websites & web apps.</li>
-                  <li>🎮 I enjoy as well to create PC games and publish them on Steam.</li>
-                  <li>🕵️ I'm also a big fan of classic mystery novels.</li>
-              </ul>
-                    </p>
+                  <div className="bg-slate-800 relative p-6 flex flex-row">
+                  <img class="object-cover w-16 h-16 mr-2 rounded-full" src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Profile image"/>
+                  <p className=" text-center my-2 text-slate-400 text-md leading-relaxed">Resume</p>
+
+
+                    <img class="object-cover w-16 h-16 mr-2 rounded-full" src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Profile image"/>
+        
+                    <p className=" text-center my-2 text-slate-400 text-md leading-relaxed">Resume</p>
+
                   </div>
+                  
                 </div>
               </div>
             </div>
