@@ -1,5 +1,6 @@
 import React from "react";
 import Folder from '../assets/Folder.png';
+import GitIcon from '../assets/GitIcon.png';
 
 export default function Portfolio() {
     const [showModal, setShowModal] = React.useState(false);
@@ -38,17 +39,37 @@ export default function Portfolio() {
                   </div>
                   {/*body*/}
                   <div className="bg-slate-800 relative p-6 flex-auto">
-                  <img class="inline object-cover w-20 h-20 mr-2 rounded-full" src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Profile image"/>
-                    <p className="text-left my-4 text-slate-400 text-lg leading-relaxed">
-      
-              <ul>
-                  <li>🏫 My name is <span className=" font-medium">NAME</span>! A (Front-End) Web Developer. I'm currently studying Webmaster Programme at Högskola Väst,
-                   If you want to contact me use this <a className='text-underline' href='mailto:linkhaggman@gmail.com'><u>EMAIL</u></a></li>
-                  <li>🧑‍💻 I like to code and design websites & web apps.</li>
-                  <li>🎮 I enjoy as well to create PC games and publish them on Steam.</li>
-                  <li>🕵️ I'm also a big fan of classic mystery novels.</li>
-              </ul>
-                    </p>
+                  <div class="mb-2 max-w-sm rounded overflow-hidden border border-slate-400">
+  <div class="px-6 py-2">
+  <a href="https://github.com/LinkTheCoder/Matador" class="text-slate-400 font-bold text-lg mb-2 underline hover:text-slate-300">📁 Matador</a>
+    <p class=" text-slate-400 text-base">
+    A re-design of a pizza restaurant 🍕
+    </p>
+  </div>
+  <div class="px-6 pb-2">
+    <span class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">React JS</span>
+    <span class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Tailwind CSS</span>
+  </div>
+</div>
+
+<div class="mb-2 max-w-sm rounded overflow-hidden border border-slate-400">
+<div class="px-6 py-2">
+  <a href="https://github.com/LinkTheCoder/BeastCrimes" class="text-slate-400 font-bold text-lg mb-2 underline hover:text-slate-300">📁 Beast Crimes</a>
+    <p class=" text-slate-400 text-base">
+    Promo site of my game Beast Crimes 🎮
+    </p>
+  </div>
+  <div class="px-6 pb-2">
+    <span class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">React JS</span>
+    <span class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Tailwind CSS</span>
+  </div>
+  </div>
+  <div class="mb-2 max-w-sm rounded overflow-hidden border border-slate-400">
+<div class="px-6 py-2">
+  <a href="https://github.com/LinkTheCoder?tab=repositories" class="text-slate-400 font-bold text-sm mb-2 underline hover:text-slate-300">More Projects</a>
+  </div>
+  </div>
+
                   </div>
                 </div>
               </div>

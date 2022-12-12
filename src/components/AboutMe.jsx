@@ -1,5 +1,6 @@
 import React from "react";
 import Folder from '../assets/Folder.png';
+import Profile from '../assets/Profile.png';
 
 export default function Portfolio() {
     const [showModal, setShowModal] = React.useState(false);
@@ -38,7 +39,7 @@ export default function Portfolio() {
                 </div>
                 {/*body*/}
                 <div className="bg-slate-800 relative p-6 flex-auto">
-                <img class="inline object-cover w-20 h-20 mr-2 rounded-full" src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Profile image"/>
+                <img class="inline object-cover w-20 h-20 mr-2 rounded-full" src={Profile} alt="Profile image"/>
                   <p className="text-left my-4 text-slate-400 text-lg leading-relaxed">
     
             <ul>
