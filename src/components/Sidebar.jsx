@@ -3,6 +3,7 @@ import Folder from '../assets/Folder.png';
 import Portfolio from './Portfolio';
 import TrashModal from './Trash';
 import AboutMe from './AboutMe';
+import Skills from './Skills';
 
 const Bar = () => {
     const [showModal, setShowModal] = React.useState(false);
@@ -26,15 +27,8 @@ const Bar = () => {
          </li>
 
           {/* RESUME */}
-         <li>
-         <a href="https://www.google.com/" target="_blank"><button class=" hover:bg-white/20 text-white py-2 px-4 rounded">
-            <img class="max-w-full h-auto" src={Folder} alt="image description">
-            </img>
-            <p>Resume</p>
-          </button></a>
-         </li>
-         <li>
-
+          <li>
+     <Skills/>
          </li>
       </ul>
    </div>

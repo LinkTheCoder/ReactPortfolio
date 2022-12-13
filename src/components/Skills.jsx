@@ -13,7 +13,7 @@ export default function Portfolio() {
          <button  onClick={() => setShowModal(true)} class="hover:bg-white/20 text-white py-2 px-4 rounded">
             <img class="max-w-full h-auto" src={Folder} alt="image description">
             </img>
-            <p>About Me</p>
+            <p>Skills</p>
           </button>
       {showModal ? (
         <>
@@ -26,7 +26,7 @@ export default function Portfolio() {
                 {/*header*/}
                 <div className="bg-slate-800 flex items-start justify-between p-5 border-b border-solid border-slate-400 rounded-t">
                   <h3 className="text-3xl text-slate-400 font-semibold">
-                    About Me
+                    Skills
                   </h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
@@ -39,17 +39,13 @@ export default function Portfolio() {
                 </div>
                 {/*body*/}
                 <div className="bg-slate-800 relative p-6 flex-auto">
-                <img class="inline object-cover w-20 h-20 mr-2 rounded-full" src={Profile} alt="Profile image"/>
                   <p className="text-left my-4 text-slate-400 text-lg leading-relaxed">
     
             <ul>
-                <li>🏫 My name is <span className=" font-medium">Link</span>! A (Front-End) Web Developer. I'm currently studying Webmaster Programme at Högskola Väst,
-                 If you want to contact me use this <a className='text-underline' href='mailto:linkhaggman@gmail.com'><u>Email</u></a>.
-                 Here is also a link to my <a className='text-underline' href='mailto:linkhaggman@gmail.com'><u>Resume</u></a>.
-                 </li>
-                <li>🧑‍💻 I like to code and design websites & web apps.</li>
-                <li>🎮 I enjoy as well to create PC games and publish them on Steam.</li>
-                <li>🕵️ I'm also a big fan of classic mystery novels.</li>
+            <li>⭐ <span className=" font-medium">Favorite Tools:</span> REACT + TAILWIND</li>
+                <li>🖥️  <span className=" font-medium">Languages:</span> HTML, CSS, JS, JSX, NANI, MARKDOWN, C#</li>
+                <li>⚙️ <span className=" font-medium">Frameworks:</span> REACT, VUE</li>
+                <li>💽 <span className=" font-medium">Libraries:</span> TAILWIND, SCSS, POST-CSS, NPM, YARN </li>
             </ul>
                   </p>
                 </div>
