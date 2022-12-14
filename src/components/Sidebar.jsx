@@ -9,7 +9,7 @@ const Bar = () => {
     const [showModal, setShowModal] = React.useState(false);
   return (
 <aside class="w-64" aria-label="Sidebar">
-   <div class="px-3 py-4 overflow-y-auto rounded bg-transparent">
+   <div class="px-3 py-2 overflow-y-auto rounded bg-transparent">
       <ul>
          {/* TRASH */}
          <li>

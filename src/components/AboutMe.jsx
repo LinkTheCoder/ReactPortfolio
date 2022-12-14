@@ -1,6 +1,7 @@
 import React from "react";
 import Folder from '../assets/Folder.png';
 import Profile from '../assets/Profile.png';
+import Resume from '../assets/Resume.pdf';
 
 export default function Portfolio() {
     const [showModal, setShowModal] = React.useState(false);
@@ -10,7 +11,7 @@ export default function Portfolio() {
           {/* ABOUT ME */}
          <li>
          <>
-         <button  onClick={() => setShowModal(true)} class="hover:bg-white/20 text-white py-2 px-4 rounded">
+         <button  onClick={() => setShowModal(true)} class="hover:bg-white/20 text-white rounded">
             <img class="max-w-full h-auto" src={Folder} alt="image description">
             </img>
             <p>About Me</p>
@@ -45,7 +46,7 @@ export default function Portfolio() {
             <ul>
                 <li>🏫 My name is <span className=" font-medium">Link</span>! A (Front-End) Web Developer. I'm currently studying Webmaster Programme at Högskola Väst,
                  If you want to contact me use this <a className='text-underline' href='mailto:linkhaggman@gmail.com'><u>Email</u></a>.
-                 Here is also a link to my <a className='text-underline' href="/src/resume.pdf"><u>Resume</u></a>.
+                 Here is also a link to my <a className='text-underline' href={Resume}><u>Resume</u></a>.
                  </li>
                 <li>🧑‍💻 I like to code and design websites & web apps.</li>
                 <li>🎮 I enjoy as well to create PC games and publish them on Steam.</li>

@@ -1,21 +1,23 @@
 import React from "react";
-import Trash from '../assets/Trash.png';
+import Chrome from '../assets/Chrome.png';
 import Box from '../assets/Box.jpg';
 import VsCodeIcon from '../assets/VsCodeIcon.png';
-import JSXIcon from '../assets/JSXIcon.png';
+import JSXIcon from '../assets/JSXIcon.png'; import Steam from '../assets/Steam.png';
+import Windows from '../assets/Windows.png'; import Gmail from '../assets/Gmail.png';
+
 
 export default function TrashModal() {
     const [showModal, setShowModal] = React.useState(false);
     return (
         <ul>  
             
-            {/* PORTFOLIO */}
+            {/* Apps */}
            <li>
            <>
-           <button  onClick={() => setShowModal(true)} class="hover:bg-white/20 text-white rounded">
-              <img class="max-w-full h-auto" src={Trash} alt="image description">
+           <button  onClick={() => setShowModal(true)} class="bg-slate-800 hover:bg-slate-700 text-white font-bold py-2 px-2 rounded">
+              <img class="max-w-full h-auto" src={Windows} alt="image description">
               </img>
-              <p>Trash</p>
+
             </button>
         {showModal ? (
           <>
@@ -28,7 +30,7 @@ export default function TrashModal() {
                   {/*header*/}
                   <div className="bg-slate-800 flex items-start justify-between p-5 border-b border-solid border-slate-400 rounded-t">
                     <h3 className="text-3xl text-slate-400 font-semibold">
-                   Trash
+                   Apps
                     </h3>
                     <button
                       className="p-1 ml-auto bg-transparent border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
@@ -40,31 +42,31 @@ export default function TrashModal() {
                     </button>
                   </div>
                   {/*body*/}
-                  <div class="bg-slate-800 p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+                  <div class="bg-slate-800 p-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
 
     <div class="rounded overflow-hidden">
-    <img class="inline object w-20 h-20 rounded-sm" src={Box} alt="Profile image"/>
-      <div class="px-6 py-2">
+    <img class="inline object w-12 h-12 rounded-sm" src={Chrome} alt="Profile image"/>
+      <div class="px-2 py-2">
         <p class="text-slate-400 text-base">
-        ???
+        Chrome
         </p>
       </div>
     </div>
  
     <div class="rounded overflow-hidden">
-    <img class="inline object w-15 h-20 rounded-sm" src={VsCodeIcon} alt="Profile image"/>
+    <img class="inline object w-12 h-12 rounded-sm" src={Gmail} alt="Profile image"/>
       <div class="px-6 py-2">
         <p class="text-slate-400 text-base">
-        NotFinal
+        Gmail
         </p>
       </div>
     </div>
 
     <div class="rounded overflow-hidden">
-    <img class="inline object w-20 h-20 rounded-sm" src={JSXIcon} alt="Profile image"/>
+    <img class="inline object w-12 h-12 rounded-sm" src={Steam} alt="Profile image"/>
       <div class="px-6 py-2">
         <p class="text-slate-400 text-base">
-        NoFunction
+        Steam
         </p>
       </div>
     </div>

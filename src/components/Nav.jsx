@@ -4,6 +4,7 @@ import Clock from '../components/Clock'
 import Chrome from '../assets/Chrome.png'; import Gmail from '../assets/Gmail.png'; import Github from '../assets/Github.png';
 import Windows from '../assets/Windows.png'; import Fullscreen from '../assets/Fullscreen.png'; import StoryGraph from '../assets/StoryGraph.png'
 import Steam from '../assets/Steam.png';
+import Apps from '../components/Apps'
 
 function FullscreenFunction() {
   if (!document.fullscreenElement && // alternative standard method
@@ -34,9 +35,8 @@ export default function Navbar({ fixed }) {
       <nav className="relative flex flex-wrap items-center justify-between bg-slate-800">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-         <button class="bg-slate-800 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded">
-            <img class="max-w-full h-auto" src={Windows} alt="image description">
-            </img>
+         <button>
+         <Apps/>
           </button>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"

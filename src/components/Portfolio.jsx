@@ -10,7 +10,7 @@ export default function Portfolio() {
             {/* PORTFOLIO */}
            <li>
            <>
-           <button  onClick={() => setShowModal(true)} class="hover:bg-white/20 text-white py-2 px-4 rounded">
+           <button  onClick={() => setShowModal(true)} class="hover:bg-white/20 text-white rounded">
               <img class="max-w-full h-auto" src={Folder} alt="image description">
               </img>
               <p>Portfolio</p>
