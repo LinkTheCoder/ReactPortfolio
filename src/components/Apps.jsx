@@ -45,30 +45,36 @@ export default function TrashModal() {
                   <div class="bg-slate-800 p-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
 
     <div class="rounded overflow-hidden">
+    <a href="https://www.google.com/"><button class="bg-slate-800 hover:bg-slate-700 text-white py-2 px-2 rounded">
     <img class="inline object w-12 h-12 rounded-sm" src={Chrome} alt="Profile image"/>
       <div class="px-2 py-2">
         <p class="text-slate-400 text-base">
         Chrome
         </p>
       </div>
+      </button></a>
     </div>
  
     <div class="rounded overflow-hidden">
+    <a href="mailto:linkhaggman@gmail.com"><button class="bg-slate-800 hover:bg-slate-700 text-white py-2 px-2 rounded">
     <img class="inline object w-12 h-12 rounded-sm" src={Gmail} alt="Profile image"/>
       <div class="px-6 py-2">
         <p class="text-slate-400 text-base">
         Gmail
         </p>
       </div>
+      </button></a>
     </div>
 
     <div class="rounded overflow-hidden">
+    <a href="https://store.steampowered.com/app/1571090/Beast_Crimes/"><button class="bg-slate-800 hover:bg-slate-700 text-white py-2 px-2 rounded">
     <img class="inline object w-12 h-12 rounded-sm" src={Steam} alt="Profile image"/>
       <div class="px-6 py-2">
         <p class="text-slate-400 text-base">
         Steam
         </p>
       </div>
+      </button></a>
     </div>
 
   </div>
