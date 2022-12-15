@@ -1,8 +1,7 @@
 import React from "react";
 import Chrome from '../assets/Chrome.png';
-import Box from '../assets/Box.jpg';
-import VsCodeIcon from '../assets/VsCodeIcon.png'; import Gmail from '../assets/Gmail.png';
-import JSXIcon from '../assets/JSXIcon.png'; import Steam from '../assets/Steam.png';
+import Gmail from '../assets/Gmail.png';
+import Steam from '../assets/Steam.png';
 import Windows from '../assets/Windows.png'; import Gmail from '../assets/Gmail.png';
 
 

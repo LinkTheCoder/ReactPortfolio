@@ -2,7 +2,7 @@ import React from 'react'
 import Bar from '../components/Sidebar'
 import Clock from '../components/Clock'
 import Chrome from '../assets/Chrome.png'; import Gmail from '../assets/Gmail.png'; import Github from '../assets/Github.png';
-import Windows from '../assets/Windows.png'; import Fullscreen from '../assets/Fullscreen.png'; import StoryGraph from '../assets/StoryGraph.png'
+import Fullscreen from '../assets/Fullscreen.png';
 import Steam from '../assets/Steam.png';
 import Apps from '../components/Apps'
 

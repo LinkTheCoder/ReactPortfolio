@@ -1,5 +1,4 @@
 import React from 'react';
-import Folder from '../assets/Folder.png';
 import Portfolio from './Portfolio';
 import TrashModal from './Trash';
 import AboutMe from './AboutMe';

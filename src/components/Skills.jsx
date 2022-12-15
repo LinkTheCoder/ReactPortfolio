@@ -1,6 +1,5 @@
 import React from "react";
 import Folder from '../assets/Folder.png';
-import Profile from '../assets/Profile.png';
 
 export default function Portfolio() {
     const [showModal, setShowModal] = React.useState(false);
