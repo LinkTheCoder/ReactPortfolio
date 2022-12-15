@@ -2,7 +2,7 @@ import React from "react";
 import Chrome from '../assets/Chrome.png';
 import Gmail from '../assets/Gmail.png';
 import Steam from '../assets/Steam.png';
-import Windows from '../assets/Windows.png'; import Gmail from '../assets/Gmail.png';
+import Windows from '../assets/Windows.png';
 
 
 export default function TrashModal() {
