@@ -67,6 +67,13 @@ export default function Navbar({ fixed }) {
               </li>
 
               <li className="nav-item">
+              <a href="https://github.com/LinkTheCoder"><button class="bg-slate-800 hover:bg-slate-700 text-white font-bold py-2 px-2 rounded">
+            <img class="max-w-full h-auto" src={Github} alt="image description">
+            </img>
+          </button></a>
+              </li>
+
+              <li className="nav-item">
               <a href="https://store.steampowered.com/app/1571090/Beast_Crimes/"><button class="bg-slate-800 hover:bg-slate-700 text-white font-bold py-2 px-2 rounded">
             <img class="max-w-full h-auto" src={Steam} alt="image description">
             </img>
