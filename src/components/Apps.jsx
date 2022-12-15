@@ -3,7 +3,7 @@ import Chrome from '../assets/Chrome.png';
 import Gmail from '../assets/Gmail.png';
 import Steam from '../assets/Steam.png';
 import Windows from '../assets/Windows.png';
-
+import Github from '../assets/Github.png';
 
 export default function TrashModal() {
     const [showModal, setShowModal] = React.useState(false);
@@ -66,6 +66,16 @@ export default function TrashModal() {
     </div>
 
     <div class="rounded overflow-hidden">
+    <a href="https://github.com/LinkTheCoder"><button class="bg-slate-800 hover:bg-slate-700 text-white py-2 px-2 rounded">
+    <img class="inline object w-12 h-12 rounded-sm" src={Github} alt="Profile image"/>
+      <div class="px-6 py-2">
+        <p class="text-slate-400 text-base">
+        Github
+        </p>
+      </div>
+      </button></a>
+
+    <div class="rounded overflow-hidden">
     <a href="https://store.steampowered.com/app/1571090/Beast_Crimes/"><button class="bg-slate-800 hover:bg-slate-700 text-white py-2 px-2 rounded">
     <img class="inline object w-12 h-12 rounded-sm" src={Steam} alt="Profile image"/>
       <div class="px-6 py-2">
@@ -79,6 +89,7 @@ export default function TrashModal() {
   </div>
   </div>
   </div>
+  </div>  
   </div>  
             <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
           </>
