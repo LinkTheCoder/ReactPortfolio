@@ -67,7 +67,7 @@ export default function Portfolio() {
 
   <div class="mb-2 max-w-sm rounded overflow-hidden border border-slate-400">
 <div class="px-6 py-2">
-  <a href="https://github.com/LinkTheCoder/BeastCrimes" class="text-slate-400 font-bold text-lg mb-2 underline hover:text-slate-300">📁 Gaming News</a>
+  <a href="https://github.com/LinkTheCoder/GamingNews" class="text-slate-400 font-bold text-lg mb-2 underline hover:text-slate-300">📁 Gaming News</a>
     <p class=" text-slate-400 text-base">
     A gaming news web app
     </p>
