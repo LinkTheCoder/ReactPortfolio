@@ -38,12 +38,12 @@ export default function Portfolio() {
                     </button>
                   </div>
                   {/*body*/}
-                  <div className="bg-slate-800 relative p-6 flex-auto">
+                  <div className="bg-slate-800 relative p-6 flex-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-3">
                   <div class="mb-2 max-w-sm rounded overflow-hidden border border-slate-400">
   <div class="px-6 py-2">
   <a href="https://github.com/LinkTheCoder/Matador" class="text-slate-400 font-bold text-lg mb-2 underline hover:text-slate-300">📁 Matador</a>
     <p class=" text-slate-400 text-base">
-    A re-design of a pizza restaurant 🍕
+    A re-design of a pizza restaurant
     </p>
   </div>
   <div class="px-6 pb-2">
@@ -56,7 +56,7 @@ export default function Portfolio() {
 <div class="px-6 py-2">
   <a href="https://github.com/LinkTheCoder/BeastCrimes" class="text-slate-400 font-bold text-lg mb-2 underline hover:text-slate-300">📁 Beast Crimes</a>
     <p class=" text-slate-400 text-base">
-    Promo site of my game Beast Crimes 🎮
+    Website of my game Beast Crimes
     </p>
   </div>
   <div class="px-6 pb-2">
@@ -64,7 +64,23 @@ export default function Portfolio() {
     <span class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Tailwind CSS</span>
   </div>
   </div>
+
   <div class="mb-2 max-w-sm rounded overflow-hidden border border-slate-400">
+<div class="px-6 py-2">
+  <a href="https://github.com/LinkTheCoder/BeastCrimes" class="text-slate-400 font-bold text-lg mb-2 underline hover:text-slate-300">📁 Gaming News</a>
+    <p class=" text-slate-400 text-base">
+    A gaming news web app
+    </p>
+  </div>
+  <div class="px-6 pb-2">
+    <span class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">React JS</span>
+    <span class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Tailwind CSS</span>
+  </div>
+  </div>
+  
+  </div>
+  <div className="bg-slate-800 relative p-6 flex-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1">
+                  <div class=" rounded overflow-hidden border border-slate-400">
 <div class="px-6 py-2">
   <a href="https://github.com/LinkTheCoder?tab=repositories" class="text-slate-400 font-bold text-sm mb-2 underline hover:text-slate-300">More Projects</a>
   </div>
